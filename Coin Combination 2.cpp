@@ -25,6 +25,7 @@ int main() {
     
     int desiredSum;
     cin >> desiredSum;
+    sort(availableCoins.begin(), availableCoins.end());
     cout << countAllSuchPossibilities(availableCoins, desiredSum,0) << endl;
     return 0;
 }
