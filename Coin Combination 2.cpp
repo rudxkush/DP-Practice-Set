@@ -17,7 +17,8 @@ int countAllSuchPossibilities(vector<int>& availableCoins, int desiredSum, int i
     return include + exclude;
 }
 
-int main() {int n;
+int main() {
+    int n;
     cin >> n; // number of coins
     vector<int> availableCoins(n);
     for (int i = 0; i < n; i++) cin >> availableCoins[i];
