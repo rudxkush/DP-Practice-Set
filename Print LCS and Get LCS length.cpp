@@ -64,6 +64,7 @@ int main() {
     cout << "The longest common subsequence's Length is: ";
     cout << obj1.longestCommonSubsequence(text1, text2) << endl;
     printSolution obj2;
+    cout << "The longest common subsequence is:";
     cout << obj2.printLongestCommonSubsequence(text1, text2) << endl;
     return 0;
 }
